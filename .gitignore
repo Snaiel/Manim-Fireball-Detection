@@ -1,0 +1,33 @@
+# Python build files
+*.py[cod]
+__pycache__/
+*.so
+
+# Manim media files
+media/
+manim_media/
+
+# Manim cache directories
+**/generated/
+**/caches/
+
+# Environment and package files
+*.env
+*.venv
+venv/
+ENV/
+env/
+venv.bak/
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
