@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 An animation that shows images of fireballs and the bounding boxes around them.
 
-![](videos/GoodFireballs.mp4)
+https://github.com/user-attachments/assets/c974081f-9db8-4097-b963-ecbf33567bbd
 
 **Preview Quality:**
 
@@ -46,7 +46,7 @@ manim -p -r 1920,1280 --fps 30 main.py GoodFireballs
 
 An animation that shows the steps the detection system performs to do detect fireballs in an image.
 
-![](videos/FireballDetectionMethodology.mp4)
+https://github.com/user-attachments/assets/f42589be-bcc8-417b-9e18-613297f02953
 
 **Preview Quality:**
 
@@ -66,7 +66,7 @@ manim -p -r 1920,1440 --fps 30 main.py FireballDetectionMethodology
 
 An animation that shows examples of images that the detection system generates false positive predictions.
 
-![](videos/FireballFails.mp4)
+https://github.com/user-attachments/assets/34fc6d77-400e-458c-b224-71282d59d832
 
 **Preview Quality:**
 
