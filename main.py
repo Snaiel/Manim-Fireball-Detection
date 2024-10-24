@@ -6,7 +6,7 @@ from manim import *
 from skimage import io
 
 
-config.background_color = "#1d1b19"
+config.background_color = "#38342e"
 
 
 class GoodFireballs(Scene):
@@ -50,7 +50,7 @@ class FireballDetectionMethodology(Scene):
         main_image.height = 8
         self.add(main_image)
 
-        heading_input = Text("Input Image", weight=BOLD, font_size=32)
+        heading_input = Text("7360x4912 Input Image", weight=BOLD, font_size=32)
         heading_input.move_to(np.array([0, 4.5, 0]))
 
         self.play(FadeIn(main_image))
@@ -61,7 +61,7 @@ class FireballDetectionMethodology(Scene):
         self.play(FadeIn(main_image))
         self.wait(2)
         
-        heading_tiling = Text("Tiling with 50% Overlap", weight=BOLD, font_size=32)
+        heading_tiling = Text("Splitting into 400x400 Tiles with 50% Overlap", weight=BOLD, font_size=32)
         heading_tiling.move_to(np.array([0, 4.5, 0]))
         self.play(Transform(heading_input, heading_tiling, replace_mobject_with_target_in_scene=True))
         
@@ -109,7 +109,7 @@ class FireballDetectionMethodology(Scene):
             else:
                 included_images.append(image)
         
-        heading_discard = Text("Discarding Tiles", weight=BOLD, font_size=32)
+        heading_discard = Text("Discarding Outside Tiles", weight=BOLD, font_size=32)
         heading_discard.move_to(np.array([0, 4.5, 0]))
         
         self.play(Transform(heading_tiling, heading_discard, replace_mobject_with_target_in_scene=True))
