@@ -46,7 +46,7 @@ manim -p -r 1920,1280 --fps 30 main.py GoodFireballs
 
 An animation that shows the steps the detection system performs to do detect fireballs in an image.
 
-https://github.com/user-attachments/assets/f42589be-bcc8-417b-9e18-613297f02953
+https://github.com/user-attachments/assets/a7e529c7-e998-486c-b863-5cc67f60fd0a
 
 **Preview Quality:**
 
